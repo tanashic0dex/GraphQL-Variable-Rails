@@ -1,8 +1,8 @@
 # graphql-ruby
 
-## Installation
+## Instalação
 
-Install dependencies:
+Instalar dependencias:
 
 ```
 bundle install
@@ -10,13 +10,13 @@ bundle install
 rails db:setup
 ```
 
-Starting the server:
+Iniciando Server:
 
 ```
 rails server
 ```
 
-Opening the application:
+Executando o App:
 
 ```
 open http://localhost:3000/
@@ -27,7 +27,7 @@ open http://localhost:3000/
 
 ```graphql
 {
-  allLinks(first: 10, filter: {descriptionContains: "example"}) {
+  allLinks(first: 10, filter: {descriptionContains: "exemplo"}) {
     id
     url
     description
@@ -41,7 +41,7 @@ open http://localhost:3000/
 
 ```
 
-Creates new user:
+Criar Novo Usuário:
 
 ```graphql
 mutation {
@@ -58,7 +58,7 @@ mutation {
 }
 ```
 
-Creates new user token:
+Criar Novo Token User:
 
 ```graphql
 mutation {
@@ -73,7 +73,7 @@ mutation {
 }
 ```
 
-Creates new link:
+Criar Novo Link de Origem:
 
 ```graphql
 mutation {
@@ -89,7 +89,7 @@ mutation {
 }
 ```
 
-Creates new vote:
+Criar Novos Votos:
 
 ```graphql
 mutation {
